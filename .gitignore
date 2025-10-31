@@ -1,0 +1,63 @@
+# IDE/에디터 설정 파일 
+.vscode/
+.idea/
+
+# macOS 시스템 파일
+.DS_Store
+
+# Windows 썸네일 캐시
+Thumbs.db
+
+
+# Python 가상 환경
+venv/
+env/
+.venv/
+
+# Python 컴파일/캐시 파일 
+__pycache__/
+*.pyc
+
+# 개발용 데이터베이스
+db.sqlite3
+*.sqlite3
+
+# 사용자가 업로드한 미디어 파일
+PhotoBlogServer/media/
+
+# 'collectstatic'으로 생성된 정적 파일 모음
+PhotoBlogServer/static/
+
+# 민감한 정보를 담는 환경 변수 파일
+.env
+
+# 로그 파일
+*.log
+
+
+# 빌드 결과물 
+/build
+/app/build
+
+# 로컬 SDK 경로 등 개인 PC 설정
+local.properties
+
+# Gradle 캐시
+.gradle/
+
+# Android Studio/IntelliJ 관련 파일
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# 생성된 APK/AAB 파일 
+*.apk
+*.aab
+
+# 앱 서명에 사용되는 키스토어 파일
+*.jks
+*.keystore
